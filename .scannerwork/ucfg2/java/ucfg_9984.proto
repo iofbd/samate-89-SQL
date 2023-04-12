@@ -1,0 +1,23 @@
+
+.testcasesupport.IO#staticReturnsTrueOrFalse()ZT
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javab b(2"1*Œ
+1T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javad d(&ƒ€
+T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javad d($
+%0java.util.Random"java.util.Random•
+’
+T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javad d(&
+%1"java.util.Random#<init>()V*
+
+%0java.util.Random²¯
+T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javad d(5
+%2boolean"java.util.Random#nextBoolean()Z*
+
+%0java.util.Random2nextBoolean()"^
+T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javad d(6
+""B"
+testcasesupport.IO

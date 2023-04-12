@@ -1,0 +1,7 @@
+organization=ramil4icr
+projectKey=sql-89
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.15878
+dashboardUrl=https://sonarcloud.io/dashboard?id=sql-89
+ceTaskId=AXaO6JzC0CVG157Sgxu2
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXaO6JzC0CVG157Sgxu2

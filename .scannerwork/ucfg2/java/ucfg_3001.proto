@@ -1,0 +1,22 @@
+
+Çtestcases.CWE89_SQL_Injection.s03.CWE89_SQL_Injection__getParameter_Servlet_execute_42#goodG2BSource(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Ljava/lang/String;™
+Ž/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getParameter_Servlet_execute_42.javab b( "1*ï
+1™
+Ž/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getParameter_Servlet_execute_42.javad d(Ç
+Ä
+™
+Ž/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getParameter_Servlet_execute_42.javad d(
+datajava.lang.String"__id*
+""È
+Å
+™
+Ž/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getParameter_Servlet_execute_42.javag g(
+datajava.lang.String"__id*
+foo"¸
+™
+Ž/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getParameter_Servlet_execute_42.javai i(
+
+datajava.lang.String:0
+request%javax.servlet.http.HttpServletRequest:2
+response&javax.servlet.http.HttpServletResponseBZX
+Vtestcases.CWE89_SQL_Injection.s03.CWE89_SQL_Injection__getParameter_Servlet_execute_42

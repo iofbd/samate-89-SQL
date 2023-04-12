@@ -1,0 +1,22 @@
+
+Àtestcases.CWE89_SQL_Injection.s02.CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_42#goodG2BSource(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Ljava/lang/String;ù
+í/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_42.javad d( "1*ˇ
+1ù
+í/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_42.javaf f(À
+»
+ù
+í/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_42.javaf f(
+datajava.lang.String"__id*
+""Ã
+…
+ù
+í/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_42.javai i(
+datajava.lang.String"__id*
+foo"º
+ù
+í/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_42.javak k(
+
+datajava.lang.String:0
+request%javax.servlet.http.HttpServletRequest:2
+response&javax.servlet.http.HttpServletResponseB^\
+Ztestcases.CWE89_SQL_Injection.s02.CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_42

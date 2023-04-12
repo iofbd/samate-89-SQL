@@ -1,0 +1,353 @@
+
+ªtestcases.CWE89_SQL_Injection.s02.CWE89_SQL_Injection__getCookies_Servlet_execute_12#bad(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java ("38*Æ
+27—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaF F(…
+‚
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaF! F(M
+%13java.lang.String"__concat*'%
+#Unable to update records for user: *
+
+datajava.lang.String
+
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaF F(N
+%14void"1testcasesupport.IO#writeLine(Ljava/lang/String;)V*"
+testcasesupport.IO*
+
+%13java.lang.String*
+19
+0
+23*£
+28—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaB B(è
+å
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaB! B(0
+%10java.lang.String"__concat*
+
+Name, *
+
+datajava.lang.String÷
+ô
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaB! B(K
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+, updated successfully
+
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaB B(L
+%12void"1testcasesupport.IO#writeLine(Ljava/lang/String;)V*"
+testcasesupport.IO*
+
+%11java.lang.String*
+19
+0
+23*ü
+29—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java? ?(}Ñ
+Î
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java? ?(}
+resultjava.lang.Boolean"__id*
+
+%9boolean*
+27
+28*È	
+30—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java= =(=ã
+à
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java= =(="
+sqlStatementjava.sql.Statement"__id*
+
+%6java.sql.Statement›
+˜
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java?6 ?(w
+%7java.lang.String"__concat*><
+:insert into users (status) values ('updated') where name='*
+
+datajava.lang.Stringà
+Ý
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java?6 ?({
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+'º·
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java?! ?(|
+%9boolean"/java.sql.Statement#execute(Ljava/lang/String;)Z*$
+"
+sqlStatementjava.sql.Statement*
+
+%8java.lang.String2execute(Ljava/lang/String;)*
+29*¦
+31—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java< <(3Ð
+Í
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java< <(3#
+dbConnectionjava.sql.Connection"__id*
+
+%5¬©
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java= =(=
+%6java.sql.Statement"9java.sql.Connection#createStatement()Ljava/sql/Statement;*%
+#
+dbConnectionjava.sql.Connection2createStatement()*
+30*”
+32—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java< <(!í
+ê
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java< <(3
+%5"0testcasesupport.IO#getDBConnection()LConnection;*"
+testcasesupport.IO*
+31*Ä
+10—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java} }(…
+‚
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java}! }(M
+%30java.lang.String"__concat*'%
+#Unable to update records for user: *
+
+datajava.lang.String
+
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java} }(N
+%31void"1testcasesupport.IO#writeLine(Ljava/lang/String;)V*"
+testcasesupport.IO*
+
+%30java.lang.String*	
+2
+6
+0*É
+33—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java8& 8(*Ð
+Í
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java8 8(+#
+dbConnectionjava.sql.Connection"__id*
+""Ï
+Ì
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java9 9(*"
+sqlStatementjava.sql.Statement"__id*
+""*
+32*¡
+11—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javay y(è
+å
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javay! y(0
+%27java.lang.String"__concat*
+
+Name, *
+
+datajava.lang.String÷
+ô
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javay! y(K
+%28java.lang.String"__concat*
+
+%27java.lang.String*
+, updated successfully
+
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javay y(L
+%29void"1testcasesupport.IO#writeLine(Ljava/lang/String;)V*"
+testcasesupport.IO*
+
+%28java.lang.String*	
+2
+6
+0*Ÿ
+34—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java6 6(ô
+ñ
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java6 6((
+%4boolean".testcasesupport.IO#staticReturnsTrueOrFalse()Z*"
+testcasesupport.IO*
+17
+33*ý
+12—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javau u(8Ò
+Ï
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javau u(8
+resultjava.lang.Boolean"__id*
+
+%26boolean*
+10
+11*í
+35—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java2 2(Æ
+Ã
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java2 2(
+datajava.lang.String"__id*
+foo*
+34*´
+13—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javau! u(-Š
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javau! u(7
+%26boolean"%java.sql.PreparedStatement#execute()Z*,
+*
+sqlStatementjava.sql.PreparedStatement2	execute()*
+12*ž
+36—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java* *((þ
+û
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java* *(+
+%2javax.servlet.http.Cookie"
+__arrayGet*.
+,
+cookieSourcesjavax.servlet.http.Cookie[]*2 œ™
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java* *(6
+%3java.lang.String"6javax.servlet.http.Cookie#getValue()Ljava/lang/String;*!
+
+%2javax.servlet.http.Cookie2
+getValue()×
+Ô
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java* *(6
+datajava.lang.String"__id*
+
+%3java.lang.String*
+34*ô
+14—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javar r(zô
+ñ
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javar r(z*
+sqlStatementjava.sql.PreparedStatement"__id*#
+!
+%24java.sql.PreparedStatementÖÓ
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javas s(/
+%25void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*,
+*
+sqlStatementjava.sql.PreparedStatement*2*
+
+datajava.lang.String2setString(ILjava/lang/String;)*
+13*º
+37—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java# #(Á
+¾
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java# #(
+datajava.lang.String"__id* ÒÏ
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java&) &(=!
+%1javax.servlet.http.Cookie[]"Njavax.servlet.http.HttpServletRequest#getCookies()[Ljavax/servlet/http/Cookie;*2
+0
+request%javax.servlet.http.HttpServletRequest2getCookies()ö
+ó
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java& &(>,
+cookieSourcesjavax.servlet.http.Cookie[]"__id*#
+!
+%1javax.servlet.http.Cookie[]*
+36
+34*ž
+15—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaq q(3Ñ
+Î
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaq q(3#
+dbConnectionjava.sql.Connection"__id*
+
+%23£ 
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javar r(z!
+%24java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*%
+#
+dbConnectionjava.sql.Connection*><
+:insert into users (status) values ('updated') where name=?2$prepareStatement(Ljava/lang/String;)*
+14*ç
+38—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java   (Å
+Â
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java   (
+datajava.lang.String"__id*
+""ô
+ñ
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java! !((
+%0boolean".testcasesupport.IO#staticReturnsTrueOrFalse()Z*"
+testcasesupport.IO*
+35
+37*•
+16—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaq q(!î
+ë
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaq q(3
+%23"0testcasesupport.IO#getDBConnection()LConnection;*"
+testcasesupport.IO*
+15*Ñ
+17—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javak& k(*Ð
+Í
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javak k(+#
+dbConnectionjava.sql.Connection"__id*
+""×
+Ô
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javal l(2*
+sqlStatementjava.sql.PreparedStatement"__id*
+""*
+16*ž
+19—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java_ _($øõ
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java_ _(,
+%20void"java.sql.Connection#close()V*%
+#
+dbConnectionjava.sql.Connection2close()*
+0*¹
+0 "±
+™
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java   (
+implicit return*¡
+2™
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java– –($ú÷
+™
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.java– –(,
+%37void"java.sql.Connection#close()V*%
+#
+dbConnectionjava.sql.Connection2close()*
+0*ª
+6™
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaŠ Š($€ý
+™
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaŠ Š(,
+%34void"java.sql.Statement#close()V*,
+*
+sqlStatementjava.sql.PreparedStatement2close()*
+2
+0* 
+23—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaS S($öó
+—
+Œ/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__getCookies_Servlet_execute_12.javaS S(,
+%17void"java.sql.Statement#close()V*$
+"
+sqlStatementjava.sql.Statement2close()*
+19
+0:0
+request%javax.servlet.http.HttpServletRequest:2
+response&javax.servlet.http.HttpServletResponseBXV
+Ttestcases.CWE89_SQL_Injection.s02.CWE89_SQL_Injection__getCookies_Servlet_execute_12

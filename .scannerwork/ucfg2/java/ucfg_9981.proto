@@ -1,0 +1,36 @@
+
+9testcasesupport.IO#getDBConnection()Ljava/sql/Connection;T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javaD D(,"1*¢
+1T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javaF F(~
+|
+T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javaF+ F(0
+%0java.lang.String"__id*
+""~
+|
+T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javaF2 F(<
+%1java.lang.String"__id*
+""~
+|
+T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javaF> F(H
+%2java.lang.String"__id*
+""Ñ
+Î
+T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javaF F(I
+%3java.sql.Connection"qjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;*"
+java.sql.DriverManager*
+
+%0java.lang.String*
+
+%1java.lang.String*
+
+%2java.lang.String"s
+T
+J/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcasesupport/IO.javaF F(J
+
+%3java.sql.ConnectionB"
+testcasesupport.IO

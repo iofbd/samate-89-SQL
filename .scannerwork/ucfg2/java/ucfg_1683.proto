@@ -1,0 +1,484 @@
+
+∑testcases.CWE89_SQL_Injection.s03.CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12#goodB2G(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaƒ ƒ("60*µ
+46¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java˘ ˘(uˇ
+¸
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java˘ ˘(u*
+sqlStatementjava.sql.PreparedStatement"__id*#
+!
+%18java.sql.PreparedStatement*
+41
+44*†	
+24¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÆ! Æ(%¿Ω
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÆ! Æ(0
+%36java.lang.String[]"=java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;*
+
+datajava.lang.String*
+-2split(Ljava/lang/String;)Ë
+Â
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÆ Æ(1
+namesjava.lang.String[]"__id*
+
+%36java.lang.String[]€
+ÿ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java∞ ∞(/#
+dbConnectionjava.sql.Connection"__id*
+""‚
+ﬂ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java± ±(6*
+sqlStatementjava.sql.PreparedStatement"__id*
+""*
+23*∂
+47¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java¯ ¯(7‹
+Ÿ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java¯ ¯(7#
+dbConnectionjava.sql.Connection"__id*
+
+%17•¢
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java˘# ˘(u!
+%18java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*%
+#
+dbConnectionjava.sql.Connection*53
+1update users set hitcount=hitcount+1 where name=?2$prepareStatement(Ljava/lang/String;)*
+46*´
+48¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java¯# ¯(%˘
+ˆ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java¯# ¯(7
+%17"0testcasesupport.IO#getDBConnection()LConnection;*"
+testcasesupport.IO*
+47*†	
+49¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÒ! Ò(%¿Ω
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÒ! Ò(0
+%16java.lang.String[]"=java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;*
+
+datajava.lang.String*
+-2split(Ljava/lang/String;)Ë
+Â
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÒ Ò(1
+namesjava.lang.String[]"__id*
+
+%16java.lang.String[]€
+ÿ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÛ Û(/#
+dbConnectionjava.sql.Connection"__id*
+""‚
+ﬂ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÙ Ù(6*
+sqlStatementjava.sql.PreparedStatement"__id*
+""*
+48*¥
+27¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaü ü((ÉÄ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaü ü(0
+%33void"java.sql.Connection#close()V*%
+#
+dbConnectionjava.sql.Connection2close()*
+0*π
+51¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÌ Ì(Ä
+˝
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÌ Ì((
+%15boolean".testcasesupport.IO#staticReturnsTrueOrFalse()Z*"
+testcasesupport.IO*
+24
+49
+0*ª
+52¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÂ Â($£†
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÂ Â(1
+%14java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
+
+tokenjava.lang.String*22substring(I)„
+‡
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÂ Â(1
+datajava.lang.String"__id*
+
+%14java.lang.String*
+51*Å
+53¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java‚# ‚(,±Æ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java‚# ‚(8
+%12java.lang.String"7java.util.StringTokenizer#nextToken()Ljava/lang/String;*(
+&
+	tokenizerjava.util.StringTokenizer2nextToken()‰
+·
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java‚ ‚(9
+tokenjava.lang.String"__id*
+
+%12java.lang.String∞≠
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java„ „(.
+%13boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+tokenjava.lang.String*
+id=2startsWith(Ljava/lang/String;)*
+52
+54*æ
+31¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaì ì((âÜ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaì ì(0
+%30void"java.sql.Statement#close()V*,
+*
+sqlStatementjava.sql.PreparedStatement2close()*
+27
+0*’
+54¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java‡ ‡( üú
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java‡ ‡(0
+%11boolean"*java.util.StringTokenizer#hasMoreTokens()Z*(
+&
+	tokenizerjava.util.StringTokenizer2hasMoreTokens()*
+51
+53*õ
+10¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaƒ ƒ(Ê
+„
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaƒ! ƒ(?
+%43java.lang.String"__concat*
+Succeeded in *
+""Ù
+Ò
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaƒ! ƒ(L
+%44java.lang.String"__concat*
+
+%43java.lang.String*
+
+ out of Ó
+Î
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaƒ! ƒ([
+%45java.lang.String"__concat*
+
+%44java.lang.String*
+""ı
+Ú
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaƒ! ƒ(i
+%46java.lang.String"__concat*
+
+%45java.lang.String*
+	 queries.õ
+ò
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaƒ ƒ(j
+%47void"1testcasesupport.IO#writeLine(Ljava/lang/String;)V*"
+testcasesupport.IO*
+
+%46java.lang.String*	
+2
+6
+0*Û
+55¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java€ €(Ã
+…
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java€ €(
+datajava.lang.String"__id* –Õ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaﬂ@ ﬂ(X
+%8java.lang.String"Hjavax.servlet.http.HttpServletRequest#getQueryString()Ljava/lang/String;*2
+0
+request%javax.servlet.http.HttpServletRequest2getQueryString()‰·
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaﬂ0 ﬂ(?
+%9java.util.StringTokenizer"java.util.StringTokenizerº
+π
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaﬂ, ﬂ(^
+%10"Gjava.util.StringTokenizer#<init>(Ljava/lang/String;Ljava/lang/String;)V*!
+
+%9java.util.StringTokenizer*
+
+%8java.lang.String*
+&˘
+ˆ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaﬂ ﬂ(_&
+	tokenizerjava.util.StringTokenizer"__id*!
+
+%9java.util.StringTokenizer*
+54*π
+56¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java“ “($¢ü
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java“ “(1
+%7java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
+
+tokenjava.lang.String*22substring(I)‚
+ﬂ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java“ “(1
+datajava.lang.String"__id*
+
+%7java.lang.String*
+51*ù
+35¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaá á(Ê
+„
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaá! á(?
+%23java.lang.String"__concat*
+Succeeded in *
+""Ù
+Ò
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaá! á(L
+%24java.lang.String"__concat*
+
+%23java.lang.String*
+
+ out of Ó
+Î
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaá! á([
+%25java.lang.String"__concat*
+
+%24java.lang.String*
+""ı
+Ú
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaá! á(i
+%26java.lang.String"__concat*
+
+%25java.lang.String*
+	 queries.õ
+ò
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaá á(j
+%27void"1testcasesupport.IO#writeLine(Ljava/lang/String;)V*"
+testcasesupport.IO*
+
+%26java.lang.String*
+27
+31
+0*˛
+57¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaœ# œ(,∞≠
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaœ# œ(8
+%5java.lang.String"7java.util.StringTokenizer#nextToken()Ljava/lang/String;*(
+&
+	tokenizerjava.util.StringTokenizer2nextToken()„
+‡
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaœ œ(9
+tokenjava.lang.String"__id*
+
+%5java.lang.StringØ¨
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java– –(.
+%6boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+tokenjava.lang.String*
+id=2startsWith(Ljava/lang/String;)*
+58
+56*‘
+58¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÕ Õ( ûõ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÕ Õ(0
+%4boolean"*java.util.StringTokenizer#hasMoreTokens()Z*(
+&
+	tokenizerjava.util.StringTokenizer2hasMoreTokens()*
+57
+51*Ú
+59¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java… …(Ã
+…
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java… …(
+datajava.lang.String"__id* –Õ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÃ@ Ã(X
+%1java.lang.String"Hjavax.servlet.http.HttpServletRequest#getQueryString()Ljava/lang/String;*2
+0
+request%javax.servlet.http.HttpServletRequest2getQueryString()‰·
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÃ0 Ã(?
+%2java.util.StringTokenizer"java.util.StringTokenizerª
+∏
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÃ, Ã(^
+%3"Gjava.util.StringTokenizer#<init>(Ljava/lang/String;Ljava/lang/String;)V*!
+
+%2java.util.StringTokenizer*
+
+%1java.lang.String*
+&˘
+ˆ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÃ Ã(_&
+	tokenizerjava.util.StringTokenizer"__id*!
+
+%2java.util.StringTokenizer*
+58*À
+16¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaº) º(5ôñ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaº) º(D
+%42int[]"#java.sql.Statement#executeBatch()[I*,
+*
+sqlStatementjava.sql.PreparedStatement2executeBatch()*
+10*Õ
+18¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java∫ ∫($óî
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java∫ ∫(/
+%41void"&java.sql.PreparedStatement#addBatch()V*,
+*
+sqlStatementjava.sql.PreparedStatement2
+addBatch()*
+16
+19*â
+19¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaπ π($Ù
+Ò
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaπ2 π(:
+%39java.lang.String"
+__arrayGet*
+
+namesjava.lang.String[]*
+""‡›
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaπ π(;
+%40void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*,
+*
+sqlStatementjava.sql.PreparedStatement*2*
+
+%39java.lang.String2setString(ILjava/lang/String;)*
+18*¬
+0 "∫
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaÁ Á(
+implicit return*≥
+2¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java‹ ‹((ÉÄ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java‹ ‹(0
+%53void"java.sql.Connection#close()V*%
+#
+dbConnectionjava.sql.Connection2close()*
+0*º
+6¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java– –((âÜ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java– –(0
+%50void"java.sql.Statement#close()V*,
+*
+sqlStatementjava.sql.PreparedStatement2close()*
+2
+0*à
+60¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java∆ ∆(–
+Õ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java∆ ∆(
+datajava.lang.String"__id*
+""ˇ
+¸
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java« «((
+%0boolean".testcasesupport.IO#staticReturnsTrueOrFalse()Z*"
+testcasesupport.IO*
+59
+55*À
+41¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaˇ) ˇ(5ôñ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaˇ) ˇ(D
+%22int[]"#java.sql.Statement#executeBatch()[I*,
+*
+sqlStatementjava.sql.PreparedStatement2executeBatch()*
+35*Õ
+43¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java˝ ˝($óî
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java˝ ˝(/
+%21void"&java.sql.PreparedStatement#addBatch()V*,
+*
+sqlStatementjava.sql.PreparedStatement2
+addBatch()*
+41
+44*µ
+21¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java∂ ∂(uˇ
+¸
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java∂ ∂(u*
+sqlStatementjava.sql.PreparedStatement"__id*#
+!
+%38java.sql.PreparedStatement*
+16
+19*â
+44¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java¸ ¸($Ù
+Ò
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java¸2 ¸(:
+%19java.lang.String"
+__arrayGet*
+
+namesjava.lang.String[]*
+""‡›
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java¸ ¸(;
+%20void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*,
+*
+sqlStatementjava.sql.PreparedStatement*2*
+
+%19java.lang.String2setString(ILjava/lang/String;)*
+43*∂
+22¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaµ µ(7‹
+Ÿ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaµ µ(7#
+dbConnectionjava.sql.Connection"__id*
+
+%37•¢
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.java∂# ∂(u!
+%38java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*%
+#
+dbConnectionjava.sql.Connection*53
+1update users set hitcount=hitcount+1 where name=?2$prepareStatement(Ljava/lang/String;)*
+21*´
+23¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaµ# µ(%˘
+ˆ
+¢
+ï/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s03/CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12.javaµ# µ(7
+%37"0testcasesupport.IO#getDBConnection()LConnection;*"
+testcasesupport.IO*
+22:0
+request%javax.servlet.http.HttpServletRequest:2
+response&javax.servlet.http.HttpServletResponseBa_
+]testcases.CWE89_SQL_Injection.s03.CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_12

@@ -1,0 +1,27 @@
+
+ttestcases.CWE89_SQL_Injection.s02.CWE89_SQL_Injection__Environment_prepareStatement_42#badSource()Ljava/lang/String;™
+Ž/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__Environment_prepareStatement_42.java ("1*˜
+1™
+Ž/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__Environment_prepareStatement_42.java (Ç
+Ä
+™
+Ž/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__Environment_prepareStatement_42.java (
+datajava.lang.String"__id*
+""•
+’
+™
+Ž/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__Environment_prepareStatement_42.java# #(#
+%0java.lang.String"=java.lang.System#getenv(Ljava/lang/String;)Ljava/lang/String;*"
+java.lang.System*
+ADDÙ
+Ö
+™
+Ž/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__Environment_prepareStatement_42.java# #(#
+datajava.lang.String"__id*
+
+%0java.lang.String"¸
+™
+Ž/Users/munawar/Desktop/testspace/samate-89-SQL/src/testcases/CWE89_SQL_Injection/s02/CWE89_SQL_Injection__Environment_prepareStatement_42.java% %(
+
+datajava.lang.StringBZX
+Vtestcases.CWE89_SQL_Injection.s02.CWE89_SQL_Injection__Environment_prepareStatement_42
