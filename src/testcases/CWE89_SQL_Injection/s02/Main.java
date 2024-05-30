@@ -8,7 +8,7 @@ public class Main {
 		
 		if(args.length != 0) {
 		
-			if(args[0].equals("-h") || args[0].equals("--help")) {
+			if("-h".equals(args[0]) || "--help".equals(args[0])) {
 		
 				System.err.println("To use this main, you can either run the program with no " +
 				"command line arguments to run all test cases or you can specify one or more classes to test");
