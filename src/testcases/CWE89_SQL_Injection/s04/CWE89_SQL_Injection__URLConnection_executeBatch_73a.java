@@ -16,6 +16,7 @@ Template File: sources-sinks-73a.tmpl.java
  * */
 
 package testcases.CWE89_SQL_Injection.s04;
+import io.github.pixee.security.BoundedLineReader;
 import testcasesupport.*;
 import java.util.LinkedList;
 
@@ -51,7 +52,7 @@ public class CWE89_SQL_Injection__URLConnection_executeBatch_73a extends Abstrac
                 /* POTENTIAL FLAW: Read data from a web server with URLConnection */
                 /* This will be reading the first "line" of the response body,
                  * which could be very long if there are no newlines in the HTML */
-                data = readerBuffered.readLine();
+                data = BoundedLineReader.readLine(readerBuffered, 5_000_000);
             }
             catch (IOException exceptIO)
             {
@@ -135,7 +136,7 @@ public class CWE89_SQL_Injection__URLConnection_executeBatch_73a extends Abstrac
                 /* POTENTIAL FLAW: Read data from a web server with URLConnection */
                 /* This will be reading the first "line" of the response body,
                  * which could be very long if there are no newlines in the HTML */
-                data = readerBuffered.readLine();
+                data = BoundedLineReader.readLine(readerBuffered, 5_000_000);
             }
             catch (IOException exceptIO)
             {

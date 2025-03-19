@@ -16,6 +16,7 @@ Template File: sources-sinks-08.tmpl.java
 * */
 
 package testcases.CWE89_SQL_Injection.s02;
+import io.github.pixee.security.BoundedLineReader;
 import testcasesupport.*;
 
 import javax.servlet.http.*;
@@ -66,7 +67,7 @@ public class CWE89_SQL_Injection__File_prepareStatement_08 extends AbstractTestC
                     /* POTENTIAL FLAW: Read data from a file */
                     /* This will be reading the first "line" of the file, which
                      * could be very long if there are little or no newlines in the file */
-                    data = readerBuffered.readLine();
+                    data = BoundedLineReader.readLine(readerBuffered, 5_000_000);
                 }
                 catch (IOException exceptIO)
                 {
@@ -331,7 +332,7 @@ public class CWE89_SQL_Injection__File_prepareStatement_08 extends AbstractTestC
                     /* POTENTIAL FLAW: Read data from a file */
                     /* This will be reading the first "line" of the file, which
                      * could be very long if there are little or no newlines in the file */
-                    data = readerBuffered.readLine();
+                    data = BoundedLineReader.readLine(readerBuffered, 5_000_000);
                 }
                 catch (IOException exceptIO)
                 {
@@ -469,7 +470,7 @@ public class CWE89_SQL_Injection__File_prepareStatement_08 extends AbstractTestC
                     /* POTENTIAL FLAW: Read data from a file */
                     /* This will be reading the first "line" of the file, which
                      * could be very long if there are little or no newlines in the file */
-                    data = readerBuffered.readLine();
+                    data = BoundedLineReader.readLine(readerBuffered, 5_000_000);
                 }
                 catch (IOException exceptIO)
                 {
