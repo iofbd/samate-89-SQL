@@ -16,6 +16,7 @@ Template File: sources-sinks-73a.tmpl.java
  * */
 
 package testcases.CWE89_SQL_Injection.s01;
+import io.github.pixee.security.BoundedLineReader;
 import testcasesupport.*;
 import java.util.LinkedList;
 
@@ -46,7 +47,7 @@ public class CWE89_SQL_Injection__console_readLine_executeQuery_73a extends Abst
                 readerBuffered = new BufferedReader(readerInputStream);
 
                 /* POTENTIAL FLAW: Read data from the console using readLine */
-                data = readerBuffered.readLine();
+                data = BoundedLineReader.readLine(readerBuffered, 5_000_000);
             }
             catch (IOException exceptIO)
             {
@@ -127,7 +128,7 @@ public class CWE89_SQL_Injection__console_readLine_executeQuery_73a extends Abst
                 readerBuffered = new BufferedReader(readerInputStream);
 
                 /* POTENTIAL FLAW: Read data from the console using readLine */
-                data = readerBuffered.readLine();
+                data = BoundedLineReader.readLine(readerBuffered, 5_000_000);
             }
             catch (IOException exceptIO)
             {
